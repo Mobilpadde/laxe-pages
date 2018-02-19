@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <style>
+            .laxers { transition: top 250ms, left 250ms; }
+        </style>
+    </head>
+    <body>
+        <h1 class='laxers'>p1</h1>
+        <h1 class='laxers'>p2</h1>
+        <h1 class='laxers'>p3</h1>
+        <h1 class='laxers'>p4</h1>
+        <script src='https://rawgit.com/Mobilpadde/laxe/master/build/app.js'></script>
+        <script src='https://rawgit.com/Mobilpadde/laxe-pages/master/build/app.js'></script>
+        <script>
+            window.onload = function() {new Laxe('.laxers', [LaxePages]) };
+        </script>
+    </body>
+</html>
